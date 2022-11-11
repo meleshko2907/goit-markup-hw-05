@@ -83,7 +83,6 @@ header{
 
 .nav-link {
     display: block;
-    
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -92,6 +91,9 @@ header{
     letter-spacing: 0.02em;
     color: var(--brand-color);
     cursor:pointer;
+    transition-duration: var(--anim-speed);
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 
 .nav-link:focus,
@@ -132,6 +134,8 @@ header{
     padding-bottom: 32px;
     align-items: center;
     gap: 10px;
+    transition-duration: var(--anim-speed);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-email:hover,
@@ -201,6 +205,8 @@ header{
     border-radius: 4px;
     padding: 10px 32px;
     border-width: 0px;
+    transition-duration: var(--anim-speed);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .hero-btn:active{
@@ -429,6 +435,8 @@ header{
     background-color: #ffffff;
     border-radius: 50%;
     color:#AFB1B8;
+    transition-duration: var(--anim-speed);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
   
 .social-icons{
@@ -468,6 +476,9 @@ header{
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
+    transition-duration: var(--anim-speed);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .clients-link{
@@ -478,6 +489,8 @@ header{
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    transition-duration: var(--anim-speed);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -593,6 +606,8 @@ header{
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     color: #ffffff;
+    transition-duration: var(--anim-speed);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link-footer:hover,
@@ -630,6 +645,8 @@ header{
     padding: 6px 22px;
     border-width: 0px;
     min-height: 38px;
+    transition-duration: var(--anim-speed);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-selection:hover,
@@ -654,6 +671,8 @@ header{
     flex-basis: calc((100%-60px)/3);
     flex-basis: 370px;
     max-width: 370px;
+    transition-duration: var(--anim-speed);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover,
