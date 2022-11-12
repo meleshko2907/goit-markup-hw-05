@@ -728,11 +728,12 @@ header{
     padding: 63px 24px;
         
     transform: translateY(100%);
+    transition: transform var(--anim-speed) ;
 }
 
 .portfolio-list-item:hover .overlay-photo{
     transform: translateY(0);
-    transition: transform 250ms ease;
+    transition: transform var(--anim-speed) ease; 
 }
 
 
